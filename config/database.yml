@@ -1,0 +1,31 @@
+staging:
+  adapter: postgresql
+  encoding: unicode
+  database: email_service_staging
+  host: db02-dev.a100sys.com
+  pool: 15
+  username: postgres
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: email_service_development
+  host: localhost
+  pool: 15
+  username: postgres
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: email_service_test
+  pool: 5
+  host: localhost
+  username: postgres
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: email_service_production
+  host: proddbls101.a100sys.com
+  pool: 15
+  username: postgres
